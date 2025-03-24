@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding-top: 30px;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    background: #D70654;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0 18px;
+}
+
+button:active {
+    background: #D70654;
+}
+
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+li {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#numeros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+#numeros p{
+    margin: 0 0 15px;
+    font-size: 18px;
+}
+
+p {
+    width: 100%;
+}
+
+span{
+    background: #FFD95F;
+    display: grid;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50%
+}
+
+span.super{
+    background: #D70654;
+    color: #fff;
+}
+
+#historial{
+    background: #F7F7F7;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+#historial p:first-child{
+    justify-content: center;
+}
+
+#historial p{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 100%;
+}
+
+#root{
+    width: 100%;
+}
